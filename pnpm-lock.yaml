@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  lucide-react:
+    specifier: ^0.321.0
+    version: 0.321.0(react@18.2.0)
   next:
     specifier: 14.0.0
     version: 14.0.0(react-dom@18.2.0)(react@18.2.0)(sass@1.69.5)
@@ -565,6 +568,14 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
+
+  /lucide-react@0.321.0(react@18.2.0):
+    resolution: {integrity: sha512-Fi9VahIna6642U+2nAGSjnXwUBV3WyfFFPQq4yi3w30jtqxDLfSyiYCtCYCYQZ2KWNZc1MDI+rcsa0t+ChdYpw==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /merge2@1.4.1:
